@@ -1,0 +1,230 @@
+
+ * * * * * * * * * * * * PACKAGE MANAGEMENT FACILITY SIMULATION BEGINS * * * * * * * * * * * * 
+
+Routing Station 0 Has A Total Workload Of 2
+Routing Station 1 Has A Total Workload Of 3
+Routing Station 2 Has A Total Workload Of 4
+
+
+
+% % % % % ROUTING STATION 0 Coming Online - Initializing Conveyors % % % % %
+
+Routing Station 0: Input conveyor set to conveyor number C0.
+Routing Station 0: Output conveyor set to conveyor number C2.
+Routing Station 0: Workload set. Station 0 has a total of 2 package groups to move.
+
+
+Routing Station 0: Now Online
+
+
+Routing Station 0: Entering Lock Aquisition Phase.
+Routing Station 0: holds lock on input conveyor C0.
+Routing Station 0: hold lock on output conveyor C2.
+
+* * * * * Routing Station 0 holds locks on both input conveyor C0 and output conveyor C2. * * * * *
+
+
+* * * * * * Routing Station 0: * * * * CURRENTLY HARD AT WORK MOVING PACKAGES. * * * * * *
+
+Routing Station 0: successfully moves packages into station on input conveyor C0.
+Routing Station 0: successfully moves packages out of station on output conveyor C2.
+
+
+Routing Station 0: has 1 package groups left to move.
+
+
+Routing Station 0: Entering Lock Release Phase
+Routing Station 0: unlocks/releases input conveyor C0.
+Routing Station 0: unlocks/releases output conveyor C2.
+
+% % % % % ROUTING STATION 1 Coming Online - Initializing Conveyors % % % % %
+
+Routing Station 1: Input conveyor set to conveyor number C1.
+Routing Station 1: Output conveyor set to conveyor number C0.
+Routing Station 1: Workload set. Station 1 has a total of 3 package groups to move.
+
+
+Routing Station 1: Now Online
+
+
+Routing Station 1: Entering Lock Aquisition Phase.
+Routing Station 1: holds lock on input conveyor C1.
+Routing Station 1: hold lock on output conveyor C0.
+
+* * * * * Routing Station 1 holds locks on both input conveyor C1 and output conveyor C0. * * * * *
+
+
+* * * * * * Routing Station 1: * * * * CURRENTLY HARD AT WORK MOVING PACKAGES. * * * * * *
+
+Routing Station 1: successfully moves packages into station on input conveyor C1.
+Routing Station 1: successfully moves packages out of station on output conveyor C0.
+
+
+Routing Station 1: has 2 package groups left to move.
+
+
+Routing Station 1: Entering Lock Release Phase
+Routing Station 1: unlocks/releases input conveyor C1.
+Routing Station 1: unlocks/releases output conveyor C0.
+Routing Station 0: Entering Lock Aquisition Phase.
+Routing Station 0: holds lock on input conveyor C0.
+Routing Station 0: hold lock on output conveyor C2.
+
+* * * * * Routing Station 0 holds locks on both input conveyor C0 and output conveyor C2. * * * * *
+
+
+* * * * * * Routing Station 0: * * * * CURRENTLY HARD AT WORK MOVING PACKAGES. * * * * * *
+
+Routing Station 0: successfully moves packages into station on input conveyor C0.
+Routing Station 0: successfully moves packages out of station on output conveyor C2.
+
+
+*  *  Station  0:  Workload  successfully  completed.  *  *  Station  0 releasing locks and going offline * *
+
+
+Routing Station 0: Entering Lock Release Phase
+Routing Station 0: unlocks/releases input conveyor C0.
+Routing Station 0: unlocks/releases output conveyor C2.
+
+
+@ @ @ @ @ @ @ ROUTING STATION 0: OFFLINE @ @ @ @ @ @ @
+
+
+Routing Station 1: Entering Lock Aquisition Phase.
+Routing Station 1: holds lock on input conveyor C1.
+Routing Station 1: hold lock on output conveyor C0.
+
+* * * * * Routing Station 1 holds locks on both input conveyor C1 and output conveyor C0. * * * * *
+
+
+* * * * * * Routing Station 1: * * * * CURRENTLY HARD AT WORK MOVING PACKAGES. * * * * * *
+
+Routing Station 1: successfully moves packages into station on input conveyor C1.
+Routing Station 1: successfully moves packages out of station on output conveyor C0.
+
+
+Routing Station 1: has 1 package groups left to move.
+
+
+Routing Station 1: Entering Lock Release Phase
+Routing Station 1: unlocks/releases input conveyor C1.
+Routing Station 1: unlocks/releases output conveyor C0.
+
+% % % % % ROUTING STATION 2 Coming Online - Initializing Conveyors % % % % %
+
+Routing Station 2: Input conveyor set to conveyor number C2.
+Routing Station 2: Output conveyor set to conveyor number C1.
+Routing Station 2: Workload set. Station 2 has a total of 4 package groups to move.
+
+
+Routing Station 2: Now Online
+
+
+Routing Station 2: Entering Lock Aquisition Phase.
+Routing Station 2: holds lock on input conveyor C2.
+Routing Station 2: hold lock on output conveyor C1.
+
+* * * * * Routing Station 2 holds locks on both input conveyor C2 and output conveyor C1. * * * * *
+
+
+* * * * * * Routing Station 2: * * * * CURRENTLY HARD AT WORK MOVING PACKAGES. * * * * * *
+
+Routing Station 2: successfully moves packages into station on input conveyor C2.
+Routing Station 2: successfully moves packages out of station on output conveyor C1.
+
+
+Routing Station 2: has 3 package groups left to move.
+
+
+Routing Station 2: Entering Lock Release Phase
+Routing Station 2: unlocks/releases input conveyor C2.
+Routing Station 2: unlocks/releases output conveyor C1.
+Routing Station 1: Entering Lock Aquisition Phase.
+Routing Station 1: holds lock on input conveyor C1.
+Routing Station 1: hold lock on output conveyor C0.
+
+* * * * * Routing Station 1 holds locks on both input conveyor C1 and output conveyor C0. * * * * *
+
+
+* * * * * * Routing Station 1: * * * * CURRENTLY HARD AT WORK MOVING PACKAGES. * * * * * *
+
+Routing Station 1: successfully moves packages into station on input conveyor C1.
+Routing Station 1: successfully moves packages out of station on output conveyor C0.
+
+
+*  *  Station  1:  Workload  successfully  completed.  *  *  Station  1 releasing locks and going offline * *
+
+
+Routing Station 1: Entering Lock Release Phase
+Routing Station 1: unlocks/releases input conveyor C1.
+Routing Station 1: unlocks/releases output conveyor C0.
+
+
+@ @ @ @ @ @ @ ROUTING STATION 1: OFFLINE @ @ @ @ @ @ @
+
+
+Routing Station 2: Entering Lock Aquisition Phase.
+Routing Station 2: holds lock on input conveyor C2.
+Routing Station 2: hold lock on output conveyor C1.
+
+* * * * * Routing Station 2 holds locks on both input conveyor C2 and output conveyor C1. * * * * *
+
+
+* * * * * * Routing Station 2: * * * * CURRENTLY HARD AT WORK MOVING PACKAGES. * * * * * *
+
+Routing Station 2: successfully moves packages into station on input conveyor C2.
+Routing Station 2: successfully moves packages out of station on output conveyor C1.
+
+
+Routing Station 2: has 2 package groups left to move.
+
+
+Routing Station 2: Entering Lock Release Phase
+Routing Station 2: unlocks/releases input conveyor C2.
+Routing Station 2: unlocks/releases output conveyor C1.
+Routing Station 2: Entering Lock Aquisition Phase.
+Routing Station 2: holds lock on input conveyor C2.
+Routing Station 2: hold lock on output conveyor C1.
+
+* * * * * Routing Station 2 holds locks on both input conveyor C2 and output conveyor C1. * * * * *
+
+
+* * * * * * Routing Station 2: * * * * CURRENTLY HARD AT WORK MOVING PACKAGES. * * * * * *
+
+Routing Station 2: successfully moves packages into station on input conveyor C2.
+Routing Station 2: successfully moves packages out of station on output conveyor C1.
+
+
+Routing Station 2: has 1 package groups left to move.
+
+
+Routing Station 2: Entering Lock Release Phase
+Routing Station 2: unlocks/releases input conveyor C2.
+Routing Station 2: unlocks/releases output conveyor C1.
+Routing Station 2: Entering Lock Aquisition Phase.
+Routing Station 2: holds lock on input conveyor C2.
+Routing Station 2: hold lock on output conveyor C1.
+
+* * * * * Routing Station 2 holds locks on both input conveyor C2 and output conveyor C1. * * * * *
+
+
+* * * * * * Routing Station 2: * * * * CURRENTLY HARD AT WORK MOVING PACKAGES. * * * * * *
+
+Routing Station 2: successfully moves packages into station on input conveyor C2.
+Routing Station 2: successfully moves packages out of station on output conveyor C1.
+
+
+*  *  Station  2:  Workload  successfully  completed.  *  *  Station  2 releasing locks and going offline * *
+
+
+Routing Station 2: Entering Lock Release Phase
+Routing Station 2: unlocks/releases input conveyor C2.
+Routing Station 2: unlocks/releases output conveyor C1.
+
+
+@ @ @ @ @ @ @ ROUTING STATION 2: OFFLINE @ @ @ @ @ @ @
+
+
+
+ * * * * * * * * * * * * PACKAGE MANAGEMENT FACILITY SIMULATION ENDS * * * * * * * * * * * * 
+
